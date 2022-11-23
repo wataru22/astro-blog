@@ -7,6 +7,7 @@ body {
   margin: 0 auto;
   width: 100%;
   max-width: 80ch;
+  min-height: 100vh;
   padding: 1rem;
   line-height: 1.5;
 }
@@ -79,4 +80,13 @@ a:focus {
   .hamburger {
     display: none;
   }
+}
+
+.dark body {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
 }
